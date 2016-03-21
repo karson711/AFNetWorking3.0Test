@@ -1,0 +1,20 @@
+//
+//  AFNetWorking3.0Test.pch
+//  AFNetWorking3.0Test
+//
+//  Created by kunge on 16/3/21.
+//  Copyright © 2016年 kunge. All rights reserved.
+//
+
+#ifndef AFNetWorking3_0Test_pch
+#define AFNetWorking3_0Test_pch
+
+//NSLog
+#ifdef DEBUG
+#   define ZJLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define ZJLog(...)
+#endif
+
+
+#endif /* AFNetWorking3_0Test_pch */
